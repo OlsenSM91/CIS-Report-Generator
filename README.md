@@ -38,6 +38,9 @@ This tool provides a graphical user interface to generate PDF reports from CSV f
 - `csv`: For reading CSV files.
 - `PIL` from `Pillow`: For processing image files.
 
+To install the dependencies (if running the source script):
+`pip install tkinter reportlab Pillow`
+
 ## Notes:
 
 - Make sure the CSV file has the following columns: `Title`, `Description`, `References`, and `Rationale`.
